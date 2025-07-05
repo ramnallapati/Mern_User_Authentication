@@ -1,11 +1,16 @@
-PORT=3000
+# Ignore environment files
+.env
+server/.env
 
-MONGO_CLIENT=mongodb+srv://ramnallapati741:uPY7ezoUOobM7dwC@cluster0.vfxnmst.mongodb.net/
+# Node modules
+node_modules/
+server/node_modules/
+client/node_modules/
 
-EMAIL_PASS=jzjt cuyb igrr bbxy
-EMAIL_USER=ramnallapati741@gmail.com
+# Logs
+*.log
 
-ACCESS_SECRET=9939
-REFRESH_SECRET=4446
+# Other
+dist/
+build/
 
-NODE_ENV=production
