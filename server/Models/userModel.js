@@ -22,7 +22,7 @@ const userSchema = new Schema(
         },
         verifyOtp:
         {
-            type:Date,
+            type:String,
             default:'',
         },
         verifyOptExpireAt:
